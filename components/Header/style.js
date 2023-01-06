@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
 export const HeaderContent = styled.header`
+    position: fixed;
+    max-width: 260px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
 
     .header__content {
-        background-color: #0a3d5b;
+        background-color: ${({theme}) => theme.primary};
         max-width: 260px;
         width: 100%;
         /* height: 360px; */
@@ -43,7 +49,7 @@ export const HeaderContent = styled.header`
             position: absolute;
             top: 45%;
             /* top: 105%; */
-            background-color: #0a3d5b;
+            background-color: ${({theme}) => theme.primary};
             width: 100%;
             height: 0;
             padding: 8.5rem 1.87rem 1.25rem;

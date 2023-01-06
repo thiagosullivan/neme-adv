@@ -15,7 +15,7 @@ function Header() {
     <HeaderContent>
       <div className='header__content'>
         <Link href="/">
-          <Image src={LogoHeader} alt="Logo Neme" />
+          <Image src={LogoHeader} alt="Logo Neme" width={145} height={145} />
         </Link>
         <div className='hamb__header' onClick={() => setOpenMenu(!openMenu)}>
           <Image src={MenuHeader} alt="Menu" />
@@ -23,11 +23,21 @@ function Header() {
         </div>
         <nav className={` ${ openMenu ? 'MenuOpen' : ''}`}>
           <ul>
-            <li><Link href="/">Sobre</Link></li>
-            <li><Link href="/">Time</Link></li>
-            <li><Link href="/">Especialidades</Link></li>
-            <li><Link href="/">Soluções</Link></li>
-            <li><Link href="/">Contato</Link></li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link href="/#sobre">Sobre</Link>
+            </li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link href="/#time">Time</Link>
+            </li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link href="/#especialidade">Especialidades</Link>
+            </li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link href="/#solucoes">Soluções</Link>
+            </li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link href="/#contato">Contato</Link>
+            </li>
           </ul>
         </nav>
       </div>
