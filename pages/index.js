@@ -1,6 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import About from '../components/About';
+import Especialidades from '../components/Especialidades';
 import Header from '../components/Header';
+import HomeHero from '../components/HomeHero';
+import Team from '../components/Team';
 
 export default function Home() {
   return (
@@ -14,7 +18,10 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <h1>NA</h1>
+        <HomeHero />
+        <About />
+        <Team />
+        <Especialidades />
       </main>
     </div>
   )
