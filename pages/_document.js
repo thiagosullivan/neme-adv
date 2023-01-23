@@ -17,15 +17,15 @@ export default function Document() {
 
           {/* Open Graph / Facebook */}
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.heveleneducadorafisica.com.br/" />
+          <meta property="og:url" content="https://www.nemeadvogados.adv.br/" />
           <meta property="og:description" content="Hevelen Jeronymo, Profissional de Educação Física especialista em gerar resultados. Flexibilidade para realizar seu treino em qualquer academia, sem ficar preso a horários. Personal Trainer em Londrina-PR" />
-          <meta property="og:image" content="https://i.ibb.co/tpMhLY4/heve-metatag.jpg" />
+          <meta property="og:image" content="https://i.ibb.co/ZxQ1JYf/neme-tag-img.jpg" />
 
           {/* Twitter */}
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://www.heveleneducadorafisica.com.br/" />
+          <meta property="twitter:url" content="https://www.nemeadvogados.adv.br/" />
           <meta property="twitter:description" content="Hevelen Jeronymo, Profissional de Educação Física especialista em gerar resultados. Flexibilidade para realizar seu treino em qualquer academia, sem ficar preso a horários. Personal Trainer em Londrina-PR" />
-          <meta property="twitter:image" content="https://i.ibb.co/tpMhLY4/heve-metatag.jpg"></meta>
+          <meta property="twitter:image" content="https://i.ibb.co/ZxQ1JYf/neme-tag-img.jpg"></meta>
         </Head>
       <body>
         <Main />
