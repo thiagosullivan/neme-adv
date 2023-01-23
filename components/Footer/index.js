@@ -15,13 +15,13 @@ function Footer() {
             <div className='footer__socialmedia'>
                 <h3>Nossas Redes</h3>
                 <div className='footer__socialmedia__links'>
-                    <a href='https://www.google.com.br' target="_blank" rel="noopener noreferrer">
+                    <a href='https://www.facebook.com/nemeadvogados' target="_blank" rel="noopener noreferrer">
                         <FaFacebookF />
                     </a>
-                    <a href='https://www.google.com.br' target="_blank" rel="noopener noreferrer">
+                    <a href='https://www.instagram.com/nemeadvogados/' target="_blank" rel="noopener noreferrer">
                         <FaInstagram />
                     </a>
-                    <a href='https://www.google.com.br' target="_blank" rel="noopener noreferrer">
+                    <a href='https://www.linkedin.com/company/neme-advogados-associados/about/' target="_blank" rel="noopener noreferrer">
                         <FaLinkedinIn />
                     </a>
                 </div>

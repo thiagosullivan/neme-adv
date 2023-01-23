@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import GoldenLines from '../../assets/lines.png';
-import {FaFacebookF, FaTwitter, FaLinkedinIn} from 'react-icons/fa';
+import {FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram} from 'react-icons/fa';
 import Sergio from '../../assets/sergio-min.png';
 import Felipe from '../../assets/felipe-min.png';
 import { QuemSomosCard, QuemSomosContainer } from './style';
@@ -17,13 +17,13 @@ function Team() {
           <div className='quem__img'>
             <Image src={Sergio} alt="Sérgio Aziz Ferrareto Neme" />
             <div className='quem__socialm'>
-              <a className='socialm_fb' href='https://www.google.com.br' target="_blank" rel="noopener noreferrer">
+              {/* <a className='socialm_fb' href='https://www.facebook.com' target="_blank" rel="noopener noreferrer">
                 <FaFacebookF/>
+              </a> */}
+              <a className='socialm_tw' href='https://www.instagram.com/sergio.neme/' target="_blank" rel="noopener noreferrer">
+                <FaInstagram/>
               </a>
-              <a className='socialm_tw' href='https://www.google.com.br' target="_blank" rel="noopener noreferrer">
-                <FaTwitter/>
-              </a>
-              <a className='socialm_li' href='https://www.google.com.br' target="_blank" rel="noopener noreferrer">
+              <a className='socialm_li' href='https://www.linkedin.com/in/s%C3%A9rgio-aziz-ferrareto-neme-8b83b812b/' target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn/>
               </a>
             </div>
@@ -42,13 +42,13 @@ function Team() {
           <div className='quem__img'>
             <Image src={Felipe} alt="Felipe Gomes Silva" />
             <div className='quem__socialm'>
-              <a className='socialm_fb' href='https://www.google.com.br' target="_blank" rel="noopener noreferrer">
+              {/* <a className='socialm_fb' href='https://www.google.com.br' target="_blank" rel="noopener noreferrer">
                 <FaFacebookF/>
+              </a> */}
+              <a className='socialm_tw' href='https://www.instagram.com/felipegomesilva/' target="_blank" rel="noopener noreferrer">
+                <FaInstagram/>
               </a>
-              <a className='socialm_tw' href='https://www.google.com.br' target="_blank" rel="noopener noreferrer">
-                <FaTwitter/>
-              </a>
-              <a className='socialm_li' href='https://www.google.com.br' target="_blank" rel="noopener noreferrer">
+              <a className='socialm_li' href='https://www.linkedin.com/in/felipe-gomes-b36ba9169/' target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn/>
               </a>
             </div>
