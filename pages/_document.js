@@ -13,18 +13,18 @@ export default function Document() {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
           {/* Primary Meta Tags */}
-          <meta name="description" content="Hevelen Jeronymo, Profissional de Educação Física especialista em gerar resultados. Flexibilidade para realizar seu treino em qualquer academia, sem ficar preso a horários. Personal Trainer em Londrina-PR" />
+          <meta name="description" content="Advogados especialistas em Direito Empresarial e Tributário. Localizados em Londrina-PR, oferecemos soluções personalizadas e eficientes para proteger seus negócios e maximizar seus lucros." />
 
           {/* Open Graph / Facebook */}
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.nemeadvogados.adv.br/" />
-          <meta property="og:description" content="Hevelen Jeronymo, Profissional de Educação Física especialista em gerar resultados. Flexibilidade para realizar seu treino em qualquer academia, sem ficar preso a horários. Personal Trainer em Londrina-PR" />
+          <meta property="og:description" content="Advogados especialistas em Direito Empresarial e Tributário. Localizados em Londrina-PR, oferecemos soluções personalizadas e eficientes para proteger seus negócios e maximizar seus lucros." />
           <meta property="og:image" content="https://i.ibb.co/ZxQ1JYf/neme-tag-img.jpg" />
 
           {/* Twitter */}
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.nemeadvogados.adv.br/" />
-          <meta property="twitter:description" content="Hevelen Jeronymo, Profissional de Educação Física especialista em gerar resultados. Flexibilidade para realizar seu treino em qualquer academia, sem ficar preso a horários. Personal Trainer em Londrina-PR" />
+          <meta property="twitter:description" content="Advogados especialistas em Direito Empresarial e Tributário. Localizados em Londrina-PR, oferecemos soluções personalizadas e eficientes para proteger seus negócios e maximizar seus lucros." />
           <meta property="twitter:image" content="https://i.ibb.co/ZxQ1JYf/neme-tag-img.jpg"></meta>
         </Head>
       <body>
