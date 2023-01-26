@@ -33,6 +33,32 @@ export const HeroContainer = styled.section`
             font-size: 1.5rem;
             line-height: 1.5;
         }
+
+        @media screen and (max-width: 1600px){
+            margin-left: 25%;
+        }
+
+        @media screen and (max-width: 1150px){
+            margin-left: 30%;
+            width: 70%;
+        }
+
+        @media screen and (max-width: 850px){
+            max-width: 500px;
+            padding-top: 4rem;
+            margin-left: 180px;
+
+            h1 {
+                font-size: 2.8rem;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+        }
+        @media screen and (max-width: 680px){
+            margin-left: 140px;
+            padding-top: 1.2rem;
+        }
     }
     .home__hero__bottom {
         position: absolute;
@@ -63,6 +89,52 @@ export const HeroContainer = styled.section`
             margin: 2.5rem auto 0;
             font-family: 'Raleway', sans-serif;
             font-size: 1.68rem;
+        }
+
+        @media screen and (max-width: 680px){
+            h2 {
+                font-size: 2.5rem;
+            }
+            a {
+                width: 160px;
+                height: 40px;
+                font-size: 1.3rem;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1600px){
+        height: 1000px;
+    }
+
+    @media screen and (max-width: 680px){
+        background-position: bottom right;
+        height: 770px;
+    }
+
+    @media screen and (max-width: 670px){
+        .home__hero__txt {
+            padding-top: 3rem;
+            padding-right: 1rem;
+        }
+        .home__hero__txt {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+    @media screen and (max-width: 500px){
+        .home__hero__txt {
+            h1 {
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+            }
+        }
+        .home__hero__txt {
+            p {
+                font-size: 1rem;
+            }
         }
     }
 `;

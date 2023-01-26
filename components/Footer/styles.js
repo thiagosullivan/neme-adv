@@ -87,4 +87,33 @@ export const FooterContainer = styled.footer`
         left: 0;
         z-index: 1;
     }
+
+    @media screen and (max-width: 920px){
+        .footer__content {
+            flex-direction: column;
+            align-items: center !important;
+        }
+        .footer__location {
+            flex-direction: column;
+        }
+        &:before {
+            top: -235px;
+        }
+        .footer__content a img {
+            margin-bottom: 3rem;
+        }
+        .footer__socialmedia h3 {
+            text-align: center;
+        }
+        .footer__socialmedia {
+            margin-bottom: 3rem;
+        }
+        .footer__location__txt {
+            margin-right: 0 !important;
+            margin-bottom: 1rem;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
 `;

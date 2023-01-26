@@ -12,6 +12,7 @@ export default function Document() {
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
+
           {/* Primary Meta Tags */}
           <meta name="description" content="Advogados especialistas em Direito Empresarial e Tributário. Localizados em Londrina-PR, oferecemos soluções personalizadas e eficientes para proteger seus negócios e maximizar seus lucros." />
 

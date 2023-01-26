@@ -12,7 +12,9 @@ function About() {
             <Image src={GoldenLines} alt="linhas"/>
         </div>
         <p>Oferencendo soluções inteligentes e inovadoras, conseguimos apresentar uma solução individual que minimiza as barreiras e os obstáculos jurídicos.</p>
-        <Image src={AboutImg} alt="Imagem da sessão sobre"/>
+        <div className='about_img'>
+          <Image src={AboutImg} alt="Imagem da sessão sobre" fill/>
+        </div>
         <p>Essas soluções são frutos de um serviço especializado e personalizado, de caráter multidisciplinar, unindo direito, negócios, contabilidade e inovação para uma advocacia além do direito, o que possibilita nossa atuação em demandas de alta complexidade.</p>
     </AboutContainer>
   )

@@ -13,6 +13,39 @@ export const QuemSomosContainer = styled.section`
         text-transform: uppercase;
         margin-bottom: 3.5rem;
     }
+
+    @media screen and (max-width: 1660px){
+        margin-left: 280px;
+    }
+
+    @media screen and (max-width: 1400px){
+        margin-left: 280px;
+        padding-right: 2rem;
+        width: 75%;
+    }
+
+    @media screen and (max-width: 1150px){
+        margin-left: 240px;
+
+        .golden_lines img {
+            width: 80%;
+        }
+        .golden_lines_left img {
+            left: 0;
+            width: 80%;
+        }
+    }
+    @media screen and (max-width: 800px){
+        margin-left: 180px;
+    }
+    @media screen and (max-width: 680px){
+        margin-left: 140px;
+    }
+    @media screen and (max-width: 680px){
+        h2 {
+            font-size: 2.2rem;
+        }
+    }
 `
 
 export const QuemSomosCard = styled.div`
@@ -32,8 +65,22 @@ export const QuemSomosCard = styled.div`
         right: -48%;
         top: -8%;
     }
+    @media screen and (max-width: 680px){
+        .golden_lines img {
+            height: 7px;
+        }
+        .golden_lines_left img {
+            height: 7px;
+        }
+    }
     .quem__img {
         margin-right: 1.5rem;
+
+        .quem__img__avatar {
+            width: 285px;
+            height: 285px;
+            position: relative;
+        }
 
         .quem__socialm {
             display: flex;
@@ -102,6 +149,64 @@ export const QuemSomosCard = styled.div`
         p {
             font-family: 'Raleway', sans-serif;
             font-size: 1.75rem;
+        }
+    }
+
+    @media screen and (max-width: 980px){
+        flex-direction: column;
+        align-items: center;
+
+        .quem__img {
+            margin-right: 0 !important;
+            margin-bottom: 2rem;
+        }
+        .quem__txt {
+            h3 {
+                font-size: 2.2rem;
+                text-align: center;
+            }
+        }
+        .quem__txt {
+            span {
+                font-size: 1.3rem;
+                text-align: center;
+            }    
+        }
+        .quem__txt {
+            p {
+                font-size: 1.3rem;
+                text-align: justify;
+            }
+        }
+    }
+
+    @media screen and (max-width: 680px){
+        h2 {
+            font-size: 2.2rem;
+        }
+        .quem__img {
+            .quem__img__avatar {
+                width: 200px;
+                height: 200px;
+            }
+        }
+        .quem__img {
+            margin-bottom: 1rem;
+        }
+        .quem__txt {
+            h3 {
+                font-size: 1.8rem;
+            }
+        }
+        .quem__txt {
+            p {
+                font-size: 1.1rem;
+            }
+        }
+        .quem__img {
+            .quem__socialm {
+                margin-top: .7rem;
+            }
         }
     }
 `

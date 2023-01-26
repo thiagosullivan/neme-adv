@@ -49,6 +49,10 @@ export default createGlobalStyle`
     overflow-y: hidden;
   }
 
+  section {
+    overflow-x: hidden;
+  }
+
   #home {
     width: 100%;
     margin: 0 auto;

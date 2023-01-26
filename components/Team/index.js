@@ -15,7 +15,9 @@ function Team() {
             <Image src={GoldenLines} alt="Linhas"/>
           </div>
           <div className='quem__img'>
-            <Image src={Sergio} alt="Sérgio Aziz Ferrareto Neme" />
+            <div className='quem__img__avatar'>
+              <Image src={Sergio} alt="Sérgio Aziz Ferrareto Neme" fill/>
+            </div>
             <div className='quem__socialm'>
               {/* <a className='socialm_fb' href='https://www.facebook.com' target="_blank" rel="noopener noreferrer">
                 <FaFacebookF/>
@@ -40,7 +42,9 @@ function Team() {
             <Image src={GoldenLines} alt="Linhas"/>
           </div>
           <div className='quem__img'>
-            <Image src={Felipe} alt="Felipe Gomes Silva" />
+            <div className='quem__img__avatar'>
+              <Image src={Felipe} alt="Felipe Gomes Silva" fill/>
+            </div>
             <div className='quem__socialm'>
               {/* <a className='socialm_fb' href='https://www.google.com.br' target="_blank" rel="noopener noreferrer">
                 <FaFacebookF/>
