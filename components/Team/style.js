@@ -4,6 +4,7 @@ export const QuemSomosContainer = styled.section`
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 1rem;
 
     h2 {
         color: ${({theme}) => theme.primary};
@@ -15,31 +16,33 @@ export const QuemSomosContainer = styled.section`
     }
 
     @media screen and (max-width: 1660px){
-        margin-left: 280px;
+
     }
 
     @media screen and (max-width: 1400px){
-        margin-left: 280px;
-        padding-right: 2rem;
-        width: 75%;
+
+        /* padding-right: 2rem; */
+        width: 85%;
     }
 
     @media screen and (max-width: 1150px){
-        margin-left: 240px;
 
-        .golden_lines img {
-            width: 80%;
-        }
+
+        /* .golden_lines img {
+            width: 100%;
+        } */
         .golden_lines_left img {
             left: 0;
             width: 80%;
         }
     }
-    @media screen and (max-width: 800px){
-        margin-left: 180px;
+    @media screen and (max-width: 980px){
+        h2 {
+            text-align: center;
+        }
     }
     @media screen and (max-width: 680px){
-        margin-left: 140px;
+        /* margin-left: 140px; */
     }
     @media screen and (max-width: 680px){
         h2 {

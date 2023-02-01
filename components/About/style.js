@@ -4,6 +4,7 @@ export const AboutContainer = styled.section`
     max-width: 1100px;
     width: 100%;
     margin: 4.37rem auto 10rem;
+    padding: 0 1rem;
     position: relative;
 
     h2 {
@@ -12,7 +13,7 @@ export const AboutContainer = styled.section`
         font-weight: 400;
         font-size: 3.31rem;
         text-transform: uppercase;
-        margin-bottom: 2.81rem;
+        margin-bottom: 3.5rem;
 
         strong {
             font-family: 'Crimson Pro', serif;
@@ -22,18 +23,15 @@ export const AboutContainer = styled.section`
     .golden_lines {
         position: absolute;
         left: -57%;
-        top: 17%;
+        top: 15%;
 
         @media screen and (max-width: 1100px){
-            top: 13%;
-
             img {
                 width: 80%;
             }
         }
 
         @media screen and (max-width: 800px){
-            top: 17%;
         }
 
         @media screen and (max-width: 680px){
@@ -45,7 +43,6 @@ export const AboutContainer = styled.section`
         }
 
         @media screen and (max-width: 645px){
-            top: 17%;
         }
     }
 
@@ -76,14 +73,12 @@ export const AboutContainer = styled.section`
     }
 
     @media screen and (max-width: 1660px){
-        margin-left: 280px;
-        width: 71%;
+        width: 85%;
         margin-top: 1rem;
     }
 
     @media screen and (max-width: 1150px){
-        margin-left: 240px;
-        padding-right: 2rem;
+
     }
 
     @media screen and (max-width: 1100px){
@@ -103,12 +98,11 @@ export const AboutContainer = styled.section`
     }
 
     @media screen and (max-width: 800px){
-        margin-left: 180px;
         margin-bottom: 4rem;
     }
 
     @media screen and (max-width: 680px){
-        margin-left: 140px;
+
     }
 
     @media screen and (max-width: 680px){

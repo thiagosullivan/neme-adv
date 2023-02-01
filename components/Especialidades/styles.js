@@ -13,6 +13,7 @@ export const EspecialidadesContainer = styled.section`
             max-width: 1100px;
             width: 100%;
             margin: 0 auto;
+            padding: 0 1rem;
 
             h2 {
                 font-family: 'Crimson Pro', serif;
@@ -39,6 +40,26 @@ export const EspecialidadesContainer = styled.section`
                 border: 1px solid ${({theme}) => theme.secondary};
                 border-radius: 20px;
             }
+
+            @media screen and (max-width: 980px){
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            @media screen and (max-width: 680px){
+                h2 {
+                    font-size: 2.5rem !important;
+                    margin-bottom: 2.5rem !important;
+                }
+                a {
+                    width: 160px;
+                    height: 40px;
+                    font-size: 1.1rem;
+                    border-radius: 10px;
+                }
+            }
         }
     }
 
@@ -48,6 +69,7 @@ export const EspecialidadesContainer = styled.section`
         margin: 0 auto 9.3rem;
         display: flex;
         align-items: center;
+        padding: 0 1rem;
 
         h2 {
             font-family: 'Crimson Pro', serif;
@@ -76,6 +98,47 @@ export const EspecialidadesContainer = styled.section`
                     font-family: 'Raleway', sans-serif;
                     font-size: 2.68rem;
                     margin-left: 2.1rem;
+                }
+            }
+        }
+
+        @media screen and (max-width: 980px){
+            flex-direction: column;
+
+            h2 {
+                text-align: center;
+                margin-right: 0;
+            }
+        }
+
+        @media screen and (max-width: 680px){
+            margin: 2rem auto 3rem;
+
+             h2 {
+                font-size: 2.5rem;
+            }
+
+            ul {
+                li {
+                    margin-bottom: 1.5rem;
+                }
+            }
+
+            ul {
+                li {
+                    img {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+            }
+            
+            ul {
+                li {
+                    p {
+                        margin-left: .5rem;
+                        font-size: 1.5rem;
+                    }
                 }
             }
         }

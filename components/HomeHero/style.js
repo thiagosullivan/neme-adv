@@ -72,6 +72,7 @@ export const HeroContainer = styled.section`
             font-weight: 400;
             font-size: 3.31rem;
             text-transform: uppercase;
+            text-align: center;
 
             strong {
                 font-family: 'Crimson Pro', serif;
