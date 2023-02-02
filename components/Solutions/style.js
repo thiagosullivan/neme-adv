@@ -8,7 +8,7 @@ export const SolutionsContainer = styled.section`
         background-color: #D1C18F;
         max-width: 1650px;
         width: 100%;
-        /* margin-left: auto; */
+        margin-left: auto;
         /* padding: 3.1rem 0 3.1rem 8.75rem; */
         
         .solution__div {

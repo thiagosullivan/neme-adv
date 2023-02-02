@@ -42,7 +42,8 @@ export const AboutContainer = styled.section`
             }
         }
 
-        @media screen and (max-width: 645px){
+        @media screen and (max-width: 450px){
+            top: 16%;
         }
     }
 
@@ -102,7 +103,7 @@ export const AboutContainer = styled.section`
     }
 
     @media screen and (max-width: 680px){
-
+        width: 100%;
     }
 
     @media screen and (max-width: 680px){

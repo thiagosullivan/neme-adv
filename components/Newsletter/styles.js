@@ -13,7 +13,7 @@ export const NewsletterContainer = styled.section`
 
         h2 {
             font-size: 3.31rem;
-            font-family: 'Crimson', serif;
+            font-family: 'Crimson Pro',serif;
             color: ${({theme}) => theme.primary};
             text-transform: uppercase;
             text-align: center;
@@ -62,6 +62,58 @@ export const NewsletterContainer = styled.section`
                     background-color: ${({ theme }) => lighten(0.1, theme.secondary)}
                 }
             }
+        }
+
+        @media screen and (max-width: 720px){
+            h2 {
+                font-size: 2.21rem;
+            }
+            p {
+                font-size: 1.8rem;
+            }
+
+            .newsletter__input {
+                input {
+                    width: 70%;
+                }
+            }
+        }
+
+        @media screen and (max-width: 550px){
+            .newsletter__input {
+                input {
+                    height: 50px;
+                    font-size: 1.2rem;
+                    border-radius: 10px;
+                }
+            }
+            .newsletter__input {
+                button {
+                    height: 50px;
+                    font-size: 1.2rem;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 420px){
+        padding-bottom: 7rem;
+
+        .newsletter__content {
+            .newsletter__input {
+                flex-direction: column;
+    
+                input {
+                    margin-right: 0;
+                    margin-bottom: 1rem;
+                    width: 100%;
+                }
+            }
+        }
+
+        .newsletter__content {
+            padding: 3.6rem 1rem;
         }
     }
 `;

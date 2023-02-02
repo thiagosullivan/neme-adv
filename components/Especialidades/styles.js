@@ -60,6 +60,16 @@ export const EspecialidadesContainer = styled.section`
                     border-radius: 10px;
                 }
             }
+            @media screen and (max-width: 520px){
+                h2 {
+                    font-size: 2rem !important;
+                    margin-bottom: 1.5rem !important;
+                }
+            }
+        }
+
+        @media screen and (max-width: 520px) {
+            height: 320px;
         }
     }
 

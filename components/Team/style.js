@@ -26,8 +26,6 @@ export const QuemSomosContainer = styled.section`
     }
 
     @media screen and (max-width: 1150px){
-
-
         /* .golden_lines img {
             width: 100%;
         } */
@@ -43,10 +41,20 @@ export const QuemSomosContainer = styled.section`
     }
     @media screen and (max-width: 680px){
         /* margin-left: 140px; */
+        width: 100%;
     }
     @media screen and (max-width: 680px){
         h2 {
             font-size: 2.2rem;
+        }
+    }
+    @media screen and (max-width: 1150px){
+        .golden_lines img {
+            width: 100%;
+        }
+        .golden_lines_left img {
+            left: 0;
+            width: 80%;
         }
     }
 `
