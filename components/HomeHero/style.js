@@ -117,7 +117,7 @@ export const HeroContainer = styled.section`
     @media screen and (max-width: 670px){
         .home__hero__txt {
             padding-top: 3rem;
-            padding-right: 1rem;
+            padding-right: 2rem;
         }
         .home__hero__txt {
             h1 {
