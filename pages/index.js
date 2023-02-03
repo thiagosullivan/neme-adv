@@ -29,7 +29,7 @@ export default function Home({posts}) {
         <Team />
         <Especialidades />
         <Solutions />
-        <News />
+        <News posts={posts} />
         {/* <NewsTwo /> */}
         <Newsletter />
       </main>
