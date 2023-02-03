@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import Link from 'next/link';
 
 const data = [
   {
@@ -29,7 +30,7 @@ const data = [
     text: 'Texto 5'
   },
 ]
-function News() {
+function News({posts}) {
   
   const NextArrow = ({onClick}) => {
     return (
@@ -90,14 +91,26 @@ function News() {
   return (
     <NewsContainer>
         <Image src={LinesTwo} alt="Lines" />
-        <h2>Últimas Notícias!</h2>
+        <h2 className='news__title__home'>Últimas Notícias!</h2>
 
-        <div className='slider__container'>
+        {/* <div className='slider__container'>
           <Slider {...settings}>
             {data.map((img, idx) => (
               <div key={idx} className={`slider_card ${idx === imgIndex ? "slide activeSlide" : "slide"}`}>
                 <img src={img.src} alt={idx} />
                 <h3>{img.text}</h3>
+              </div>
+            ))}
+          </Slider>
+        </div> */}
+        <div className='slider__container'>
+          <Slider {...settings}>
+            {posts.map((post, idx) => (
+              <div key={idx} className={`slider_card ${idx === imgIndex ? "slide activeSlide" : "slide"}`}>
+                <img src={post.imgPost.url} alt={post.title} />
+                <Link href={`blog/${post.slug}`}>
+                  <h3>{post.title.length > 123 ? post.title.substr(0, 123) + "..." : post.title}</h3>
+                </Link>
               </div>
             ))}
           </Slider>

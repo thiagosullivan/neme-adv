@@ -13,6 +13,18 @@ export const NewsContainer = styled.section`
         text-align: center;
     }
 
+    .slick-active {
+        padding-bottom: 2.5rem;
+    }
+    .slider_card {
+        img {
+            height: 300px;
+        }
+    }
+    .slick-slide div {
+        width: fit-content;
+    }
+
     @media screen and (max-width: 980px){
         h2 {
             font-size: 3.5rem;

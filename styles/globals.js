@@ -77,6 +77,9 @@ export default createGlobalStyle`
     text-align: center;
     margin-top: 1.5rem;
   }
+  .slider_card {
+    outline: none;
+  }
   .slick-slider .prev {
     top: 50%;
     left: 3%;
@@ -142,6 +145,6 @@ export default createGlobalStyle`
       overflow: hidden;
   }
   .slick-list {
-      margin-left: -17%;
+      margin-left: -2%;
   }
 `;
