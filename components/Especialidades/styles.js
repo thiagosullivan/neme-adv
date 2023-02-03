@@ -30,15 +30,15 @@ export const EspecialidadesContainer = styled.section`
     
             a {
                 font-family: 'Raleway', sans-serif;
-                font-size: 1.78rem;
+                font-size: 1.12rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width: 280px;
-                height: 62px;
+                width: 180px;
+                height: 40px;
                 color: ${({theme}) => theme.secondary};
                 border: 1px solid ${({theme}) => theme.secondary};
-                border-radius: 20px;
+                border-radius: 10px;
             }
 
             @media screen and (max-width: 980px){

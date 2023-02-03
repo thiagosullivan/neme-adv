@@ -69,7 +69,7 @@ export default createGlobalStyle`
   .activeSlide {
     transform: scale(1.1);
     opacity: 1;
-    height: 400px;
+    height: 210px;
     z-index: 2;
     position: relative;
   }
@@ -97,8 +97,6 @@ export default createGlobalStyle`
     color: #D7C692;
     font-size: 2.5rem
   }
-
-
 
   .slide {
     transform: scale(0.7);
@@ -145,6 +143,9 @@ export default createGlobalStyle`
       overflow: hidden;
   }
   .slick-list {
-      margin-left: -2%;
+    margin-left: -2%;
+  }
+  .slick-dots {
+    display: none !important;
   }
 `;

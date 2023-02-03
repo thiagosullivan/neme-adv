@@ -5,7 +5,7 @@ export const SolutionsContainer = styled.section`
     padding: 2.81rem 0;
 
     .solution__content {
-        background-color: #D1C18F;
+        background-color: #FFFFFF;
         max-width: 1650px;
         width: 100%;
         margin-left: auto;
@@ -38,7 +38,7 @@ export const SolutionsContainer = styled.section`
                         font-family: 'Raleway', sans-serif;
                         font-size: 2.68rem;
                         margin-left: 2.1rem;
-                        color: ${({theme}) => theme.white};
+                        color: ${({theme}) => theme.primary};
                     }
                 }
             }

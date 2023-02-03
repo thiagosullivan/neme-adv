@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import MarkTwo from '../../assets/mark-2.png';
+import MarkTwo from '../../assets/mark-1.png';
 import { SolutionsContainer } from './style';
 
 function Solutions() {

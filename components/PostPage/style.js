@@ -72,7 +72,7 @@ export const PostBackground = styled.div`
         height: 314px;
         display: block;
         position: absolute;
-        bottom: -3px;
+        bottom: -35px;
     }
 
     .layer__bg {

@@ -90,9 +90,11 @@ function NewsPostPage({posts, post}) {
           <Slider {...settings}>
             {filteredPosts.map((post, idx) => (
               <div key={idx} className={`slider_card ${idx === imgIndex ? "slide activeSlide" : "slide"}`}>
+                <div className='layer__post__home'></div>
                 <img src={post.imgPost.url} alt={post.title} />
-                <Link href={`${post.slug}`}>
-                  <h3>{post.title.length > 123 ? post.title.substr(0, 123) + "..." : post.title}</h3>
+                <h3>{post.title.length > 123 ? post.title.substr(0, 123) + "..." : post.title}</h3>
+                <Link href={`blog/${post.slug}`}>
+                  Leia mais
                 </Link>
               </div>
             ))}
