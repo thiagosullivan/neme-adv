@@ -4,6 +4,10 @@ export const SolutionsContainer = styled.section`
     background-color: #ebe4cf;
     padding: 2.81rem 0;
 
+    @media screen and (max-width: 780px){
+        padding: 2.81rem 1rem;
+    }
+
     .solution__content {
         background-color: #FFFFFF;
         max-width: 1650px;
@@ -43,7 +47,9 @@ export const SolutionsContainer = styled.section`
                 }
             }
 
-            @media screen and (max-width: 680px){
+            @media screen and (max-width: 780px){
+                padding: 2rem 0;
+                
                 h2 {
                     text-align: center;
                     font-size: 2.5rem;

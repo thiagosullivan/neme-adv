@@ -5,7 +5,7 @@ export const NewsContainer = styled.section`
 
     h2 {
         font-family: 'Crimson Pro', serif;
-        font-size: 4.5rem;
+        font-size: 3rem;
         color: ${({theme}) => theme.primary};
         text-transform: uppercase;
         margin-top: 2rem;

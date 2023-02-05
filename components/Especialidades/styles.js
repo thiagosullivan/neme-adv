@@ -48,7 +48,7 @@ export const EspecialidadesContainer = styled.section`
                 align-items: center;
             }
 
-            @media screen and (max-width: 680px){
+            @media screen and (max-width: 780px){
                 h2 {
                     font-size: 2.5rem !important;
                     margin-bottom: 2.5rem !important;
@@ -121,7 +121,7 @@ export const EspecialidadesContainer = styled.section`
             }
         }
 
-        @media screen and (max-width: 680px){
+        @media screen and (max-width: 780px){
             margin: 2rem auto 3rem;
 
              h2 {

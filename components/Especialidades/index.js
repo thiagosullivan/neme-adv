@@ -10,10 +10,10 @@ function Especialidades() {
         <div className='speciality__contact'>
             <div className='speciality__contact_txt'>
                 <h2>Quer nos conhecer <br/><strong>melhor?</strong></h2>
-                <Link href="/">Entre em contato!</Link>
+                <Link href="https://api.whatsapp.com/send?phone=5543988123276" target="_blank" rel="noopener noreferrer">Entre em contato!</Link>
             </div>
         </div>
-        <div className='speciality__content'>
+        <div className='speciality__content' id="especialidades">
             <h2>Áreas que <br/><strong>atuamos!</strong></h2>
             <ul>
                 <li>

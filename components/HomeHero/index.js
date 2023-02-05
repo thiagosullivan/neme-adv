@@ -12,7 +12,7 @@ function HomeHero() {
         </div>
         <div className='home__hero__bottom'>
             <h2>Conheça nossas <br/> <strong>Especialidades</strong></h2>
-            <Link href="/">Saiba mais</Link>
+            <Link href="#especialidades">Saiba mais</Link>
         </div>
     </HeroContainer>
   )

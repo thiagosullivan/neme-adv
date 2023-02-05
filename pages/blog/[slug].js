@@ -14,6 +14,7 @@ function PostPage({post, posts}) {
         <Head>
             {/* Primary Meta Tags */}
             <title>{post.title} | Neme Advogados </title>
+            <link rel="icon" href="/favicon.ico" />
             <meta name="description" content="Advogados especialistas em Direito Empresarial e Tributário. Localizados em Londrina-PR, oferecemos soluções personalizadas e eficientes para proteger seus negócios e maximizar seus lucros." />
             <meta name="title" content={`${post.title} | Neme Advogados`}/>
 

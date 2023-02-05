@@ -30,13 +30,13 @@ function Header() {
               <Link href="/#time">Time</Link>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
-              <Link href="/#especialidade">Especialidades</Link>
+              <Link href="/#especialidades">Especialidades</Link>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link href="/#solucoes">Soluções</Link>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
-              <Link href="/#contato">Contato</Link>
+              <Link href="https://api.whatsapp.com/send?phone=5543988123276" target="_blank" rel="noopener noreferrer">Contato</Link>
             </li>
           </ul>
         </nav>

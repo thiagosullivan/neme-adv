@@ -49,7 +49,7 @@ export const NewsContainer = styled.section`
     .slick-center {
         .slider_card {
             h3 {
-                display: block;
+                display: block;                
             }
             a {
                 display: flex;
@@ -105,10 +105,10 @@ export const NewsContainer = styled.section`
         .slider_card img {
             width: 80%;
         }
-        .slider_card h3 {
+        /* .slider_card h3 {
             width: 90%;
             margin-left: 3%;
-        }
+        } */
     }
 
     @media screen and (max-width: 670px){

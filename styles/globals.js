@@ -76,6 +76,14 @@ export default createGlobalStyle`
   .slider_card h3 {
     text-align: center;
     margin-top: 1.5rem;
+    padding: 0 1rem;
+  }
+  @media screen and (max-width: 980px){
+    .slider_card h3 {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
   }
   .slider_card {
     outline: none;
