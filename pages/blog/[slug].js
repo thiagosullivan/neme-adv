@@ -34,7 +34,7 @@ function PostPage({post, posts}) {
         </Head>
 
         <Header />
-        <main>
+        <main class="post__page__main">
             <Post post={post} />
             <NewsPostPage posts={posts} post={post} />
         </main>

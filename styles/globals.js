@@ -156,4 +156,17 @@ export default createGlobalStyle`
   .slick-dots {
     display: none !important;
   }
+
+  /* .post__txt::before {
+    content: '';
+    background-image: url('https://raw.githubusercontent.com/thiagosullivan/neme-adv/main/assets/post-ind-img-2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 314px;
+    top: -225px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+  } */
 `;

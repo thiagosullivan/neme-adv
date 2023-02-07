@@ -89,15 +89,16 @@ export const FooterContainer = styled.footer`
     }
 
     @media screen and (max-width: 920px){
+        &:before {
+            height: 100px;
+            top: -14%;
+        }
         .footer__content {
             flex-direction: column;
             align-items: center !important;
         }
         .footer__location {
             flex-direction: column;
-        }
-        &:before {
-            top: -235px;
         }
         .footer__content a img {
             margin-bottom: 3rem;
